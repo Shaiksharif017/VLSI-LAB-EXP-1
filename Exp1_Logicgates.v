@@ -4,8 +4,8 @@ output andgate,orgate,xorgate,nandgate,norgate,xnorgate,notgate;
 and(andgate,a,b);
 or(orgate,a,b);
 xor(xorgate,a,b);
-nand(nandgate,a,b);  
+nand(nandgate,a,b);
 nor(norgate,a,b);
 xnor(xnorgate,a,b);
-not(notgate,a);
+not(notgate,a,b);
 endmodule
